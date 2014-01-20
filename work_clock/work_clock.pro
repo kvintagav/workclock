@@ -11,10 +11,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        workclock.cpp \
-    counter.cpp
+        workclock.cpp
 
-HEADERS  += workclock.h \
-    counter.h
+HEADERS  += workclock.h
 
 FORMS    += workclock.ui
