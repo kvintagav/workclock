@@ -47,7 +47,9 @@ void workclock::showTime()
      }
 
     if (value==15)
-    {int n = QMessageBox::warning(0,
+    {
+         // QApplication::alert ( this, 1000 );
+            int n = QMessageBox::warning(0,
       "Warning",
       "Pleaes Stop",
       QMessageBox::Yes | QMessageBox::No,
